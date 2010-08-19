@@ -1,6 +1,10 @@
-" Set the guifont
-  set guifont=Monaco:h12
+syntax on
 
+set columns=80
+set lines=25
+
+" Set the guifont
+  set guifont=Consolas:h18
   set antialias
 
 " fullscreen maximizes vertically AND horizontally
@@ -123,3 +127,4 @@ imap <D-/> <C-O>,c<Space>
 
 " Make F2 open NERDTree
 nmap <F2> :NERDTreeToggle<CR>
+
